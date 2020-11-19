@@ -6,8 +6,8 @@ public class Domashka {
     @Test
     public void Domashka() {
         System.out.println("Summa kredita: 1000 EUR");
-        System.out.println(sumOneDigits(1000, 0.25, 1095, 365, 250));
-        System.out.println(sumTwoDigits(1000, 0.25, 1095, 365, 250));
+        System.out.println("Summa% + komissija: " + sumOneDigits(1000, 0.25, 1095, 365, 250));
+        System.out.println("Summa vsej viplati: " + sumTwoDigits(1000, 0.25, 1095, 365, 250));
     }
 
      private double sumOneDigits(int a, double b, int c, int d, int e) {
